@@ -56,16 +56,16 @@ public class App extends Application {
         Region spacer = new Region();
         spacer.prefWidthProperty().bind(flowPane.widthProperty());
 
-        //flowPane.setHgap(20); // Horizontal gap
-        //flowPane.setVgap(15); // Vertical gap
+        // flowPane.setHgap(20); // Horizontal gap
+        // flowPane.setVgap(15); // Vertical gap
 
-        //flowPane.setPadding(new Insets(20)); // Outer spacing
+        // flowPane.setPadding(new Insets(20)); // Outer spacing
 
         // flowPane.setOrientation(Orientation.VERTICAL); // Switch orientation
 
-        //flowPane.setPrefWrapLength(200); // Wrap after this width
+        // flowPane.setPrefWrapLength(200); // Wrap after this width
 
-        //flowPane.setAlignment(Pos.CENTER); // Child alignment
+        // flowPane.setAlignment(Pos.CENTER); // Child alignment
 
         // Label
         flowPane.getChildren().add(label);
@@ -76,20 +76,26 @@ public class App extends Application {
         flowPane.getChildren().add(createSpacer(flowPane));
 
         // TextField
-        /*flowPane.getChildren().add(textField);
-        flowPane.getChildren().add(createSpacer(flowPane));
-        flowPane.getChildren().addAll(btn5);
-        flowPane.getChildren().add(createSpacer(flowPane));*/
+        /*
+         * flowPane.getChildren().add(textField);
+         * flowPane.getChildren().add(createSpacer(flowPane));
+         * flowPane.getChildren().addAll(btn5);
+         * flowPane.getChildren().add(createSpacer(flowPane));
+         */
 
         // CheckBox
-        /*flowPane.getChildren().add(check);
-        flowPane.getChildren().add(createSpacer(flowPane));*/
+        /*
+         * flowPane.getChildren().add(check);
+         * flowPane.getChildren().add(createSpacer(flowPane));
+         */
 
         // Shapes (eg. UI elements)
-        /*flowPane.getChildren().add(rect);
-        flowPane.getChildren().add(createSpacer(flowPane));*/
+        /*
+         * flowPane.getChildren().add(rect);
+         * flowPane.getChildren().add(createSpacer(flowPane));
+         */
 
-        //flowPane.getChildren().add(rect2);
+        // flowPane.getChildren().add(rect2);
 
         Scene scene = new Scene(flowPane, 500, 500);
         primaryStage.setScene(scene);
